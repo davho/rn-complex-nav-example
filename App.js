@@ -2,6 +2,11 @@ import React from 'react'
 import { StyleSheet, Text, View, Button } from 'react-native'
 import Icon from '@expo/vector-icons/Ionicons'
 
+// Some guidance (Note, these videos are from React Navigation 2 and my robust example below is up to date with React Navigation 3's syntax, installation protocol and behavior, but the logic behind these videos remains intact.)
+// https://www.youtube.com/watch?v=w24FE9PZpzk
+// https://www.youtube.com/watch?v=kBKRH2zGwts
+// https://www.youtube.com/watch?v=MePfTc_PgzQ
+
 import { createSwitchNavigator, createAppContainer } from 'react-navigation'
 import { createDrawerNavigator } from 'react-navigation-drawer' // createDrawerNavigator isn't part of the main react-navigation library and needs to be imported from react-navigation-drawer
 import { createBottomTabNavigator } from 'react-navigation-tabs' // createBottomTabNavigator isn't part of the main react-navigation library and needs to be imported from react-navigation-stack
