@@ -12,7 +12,7 @@ import { createDrawerNavigator } from 'react-navigation-drawer' // createDrawerN
 import { createBottomTabNavigator } from 'react-navigation-tabs' // createBottomTabNavigator isn't part of the main react-navigation library and needs to be imported from react-navigation-stack
 import { createStackNavigator } from 'react-navigation-stack' // createStackNavigator isn't part of the main react-navigation library and needs to be imported from react-navigation-stack
 
-// Do: expo install react-navigation react-navigation-drawer react-navigation-tabs react-navigation-stack react-native-gesture-handler react-native-reanimated react-native-screens
+// Do: expo install react-navigation react-navigation-drawer react-navigation-tabs react-navigation-stack react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
 
 
 // IN A REAL USE CASE THIS FILE WOULD CONTAIN ONLY THIS APP COMPONENT AND THE NAVIGATION ROUTES AT THE BOTTOM OF THE PAGE. EACH OF THE COMPONENTS AFTER APP WOULD EACH BE IN THEIR OWN FILES IN A COMPONENTS FOLDER.
